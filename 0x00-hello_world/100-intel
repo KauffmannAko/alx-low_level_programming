@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S -mtune=intel $CFILE -o ${$CFILE::-2}".s"
+gcc -S -mcpu=intel $CFILE -o ${$CFILE::-2}".s"
