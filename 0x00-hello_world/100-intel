@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S -masm=dialect $CFILE -o ${$CFILE::-2}".s"
+gcc -S -mllvm --x86-asm-syntax=intel $CFILE -o ${$CFILE::-2}".s"
