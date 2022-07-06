@@ -8,7 +8,7 @@
 int _islower(int c)
 {
 	char ch;
-	int state;
+	int state = 0;
 	    ch = 'a';
 	while (ch <= 'z')
 	{
