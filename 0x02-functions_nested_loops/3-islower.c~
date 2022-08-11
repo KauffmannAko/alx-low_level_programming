@@ -1,0 +1,24 @@
+#include "main.h"
+/**
+ * main - Check description
+ * Description: It prints the word Holberton, followed by a new line.
+ * Return: 0.
+ */
+int _islower(int c)
+{
+	char ch;
+	ch = 'a';
+	int state = 0;
+	while (ch <= 'z')
+	{
+		if (ch == c)
+		{
+			state = 1
+		}
+		else
+		{
+			state = 0
+		}
+	}
+	return (state)
+}
